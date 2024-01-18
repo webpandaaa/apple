@@ -1,0 +1,459 @@
+*
+{
+    margin: 0;  
+    padding:0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    
+
+}
+#main
+{
+    z-index: 99;
+    width: 100%;
+    background-color: #FBFBFB;
+}
+#main #nav
+{
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    height: 6%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.811);
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-family: gilroy;
+    font-size: 14px;
+    opacity: .7;
+}
+
+#main #image1
+{
+    width: 90vh;
+    height: 85vh;
+    transform: translate(38%,2%);
+    background-size: cover;
+    background-image: url(https://www.apple.com/v/home/au/images/heroes/ipad/hero_ipad__rh99l6c3yuyy_mediumtall.jpg);
+}
+
+#main #text1
+{
+    text-align: center;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 40%;
+    left: 37%;
+}
+
+#text1 h1{
+    font-weight: 600;
+    font-size: 55px;
+    font-family: gilroy;
+}
+#text1 p
+{
+    font-family: gilroy;
+    font-size: larger;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: .5px;
+    margin-bottom: 20px;
+}
+
+#text1 a{
+    text-decoration: none;
+    font-family: gilroy;
+    color: royalblue;
+    font-size: 20px;
+    padding: 10px;
+} 
+
+#main #image2
+{
+    width: 90vh;
+    height: 80vh;
+    transform: translate(38%,2%);
+    background-size: cover;
+    background-image: url(https://www.apple.com/v/home/au/images/heroes/iphone-14/hero_iphone14__fjmsqstr1ceq_mediumtall.jpg);
+}
+#main #text2
+{
+    text-align: center;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 88%;
+    left: 22%;
+
+}
+#text2 h1{
+    font-weight: 600;
+    font-size: 55px;
+    font-family: gilroy;
+}
+#text2 p
+{
+    font-family: gilroy;
+    font-size: larger;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
+}
+
+#text2 a{
+    text-decoration: none;
+    font-family: gilroy;
+    color: royalblue;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+#sec
+{
+    width: 100%;
+    height: 80vh;
+    background-color: #010023;
+    margin-top:15px ;
+}
+#sec video
+
+{
+background-size: cover;   
+ width: 100%;
+ height: 70vh;
+}
+#sec #text3
+{
+    text-align: center;
+    width: 35%;
+    margin-top: -120px;
+    margin-left: 32%;
+    color: white;
+}
+#text3 h1{
+    font-weight: 600;
+    font-size: 55px;
+    font-family: gilroy;
+}
+#text3 p
+{
+    font-family: gilroy;
+    font-size: larger;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
+}
+
+#text3 a{
+    text-decoration: none;
+    font-family: gilroy;
+    color: royalblue;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+} 
+
+#third
+{
+    display: flex;
+    width: 100%;
+    height: 71vh;
+    background-color: #FBFBFB;
+}
+
+#third #left1
+{
+    width: 48%;
+    height: 70vh;
+    background-image: url(https://www.apple.com/v/home/au/images/promos/iphone-14-pro/promo_iphone14pro__4n4twj56fzmu_large.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+ #text4
+{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+#text4 h3{
+    font-weight: 600;
+    font-size: 32px;
+    font-family: gilroy;
+}
+#text4 p
+{
+    font-family: gilroy;
+    font-size: larger;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
+}
+
+#text4 a{
+    text-decoration: none;
+    font-family: gilroy;
+    color: royalblue;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+} 
+
+#right1
+{
+    width: 50%;
+    height: 70vh;
+    background-image: url(https://www.apple.com/v/home/au/images/promos/apple-tv-4k/promo_tv4k_avail__e17d9isb0vwy_large.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#right1 #text5
+{
+    font-family: gilroy;
+    text-align: center;
+    padding-top: 20px;
+}
+#text5 i
+
+{
+    font-size: 22px;
+    text-align: center;
+}
+#text5 p
+{
+    font-family: gilroy;
+    font-size: larger;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
+}
+
+#text5 a{
+    text-decoration: none;
+    font-family: gilroy;
+    color: royalblue;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+} 
+
+#four
+{
+    display: flex;
+    height: 71vh;
+}
+
+#four #left2
+{
+    width: 48%;
+    height: 70vh;
+    background-image: url(https://www.apple.com/v/home/au/images/promos/ipad-pro/promo_ipadpro__ch217v9v7no2_large.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#text6 
+{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+#text6 h3{
+    font-weight: 600;
+    font-size: 32px;
+    font-family: gilroy;
+}
+#text6 p
+{
+    font-family: gilroy;
+    font-size: larger;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
+}
+
+#text6 a{
+    text-decoration: none;
+    font-family: gilroy;
+    color: royalblue;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+} 
+
+#right2
+{
+    width: 48%;
+    height: 70vh;
+    background-image: url(https://www.apple.com/v/home/au/images/promos/apple-watch-ultra/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#text7
+{
+    padding-top: 20px;
+    font-family: gilroy;
+    text-align: center;
+
+}
+#text7 h6{
+    color: orangered;
+    letter-spacing: 1px;
+}
+
+#text7 i{
+    font-size: 30px;
+}
+
+#text7 span{
+    font-family: gilroy;
+    font-weight: 600;
+}
+
+#text7 p
+{
+    font-family: gilroy;
+    font-size: larger;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
+}
+
+#text7 a{
+    text-decoration: none;
+    font-family: gilroy;
+    color: royalblue;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+} 
+#five
+{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+#left3
+{
+    width: 48%;
+    height: 70vh;
+    background-image: url(https://www.apple.com/v/home/au/images/promos/apple-watch-series-8/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+#text8
+{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+
+}
+#text8 h6{
+    color: orangered;
+    letter-spacing: 1px;
+}
+
+#text8 i{
+    font-size: 30px;
+}
+
+#text8 span{
+    font-family: gilroy;
+}
+
+#text8 p
+{
+    font-family: gilroy;
+    font-size: larger;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
+}
+
+#text8 a{
+    text-decoration: none;
+    font-family: gilroy;
+    color: royalblue;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+} 
+
+#right3
+{
+    width: 48%;
+    height: 70vh;
+    background-image: url(https://www.apple.com/v/home/au/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#text9
+{   font-family: gilroy;
+    text-align: center;
+    padding-top: 20px;
+}
+#text9 i{
+    font-size: 30px;
+}
+#text9 span{
+    font-family: gilroy;
+    font-weight: 600;
+}
+
+#text9 p
+{
+    font-family: gilroy;
+    font-size: larger;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
+}
+
+#text9 a{
+    text-decoration: none;
+    font-family: gilroy;
+    color: royalblue;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+} 
+
+
